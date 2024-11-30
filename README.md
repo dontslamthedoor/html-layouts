@@ -9,4 +9,5 @@ This repository is a collection of HTML layouts, templates, and snippets to get 
 ## Preview of some HTML files
 ![screenshot-1](https://github.com/user-attachments/assets/ef787640-a6e6-4ba6-9915-4cdb794f1841)
 <br>
-![img](https://github.com/xwhaler/html-layouts-html-layout-images/Screenshot_2024-11-30-12-37-42_3840x1080.png)
+![screenshot-2](https://github.com/user-attachments/assets/0e66c28a-16f5-47b2-8622-ba5c57c2f434)
+
