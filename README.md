@@ -8,4 +8,4 @@ This repository is a collection of HTML layouts, templates and snippets to get y
 <h2>Preview of some HTML files</h2>
 ![Alt text](https://github.com/user-attachments/assets/ef787640-a6e6-4ba6-9915-4cdb794f1841)
 <br>
-![Alt text](https://github.com/user-attachments/assets/d809e67f-10c1-43b2-b746-4f91e07dcb0a)
+![Alt text](html-layout-images/Screenshot_2024-11-30-12-37-42_3840x1080.png)
