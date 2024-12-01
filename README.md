@@ -7,7 +7,8 @@ This repository is a collection of HTML layouts, templates, and snippets to get 
 </ul>
 
 ## Preview of some HTML files
-![screenshot-1](https://github.com/user-attachments/assets/ef787640-a6e6-4ba6-9915-4cdb794f1841)
+![dark-regular](https://github.com/user-attachments/assets/ef787640-a6e6-4ba6-9915-4cdb794f1841)
 <br>
-![screenshot-2](https://github.com/user-attachments/assets/0e66c28a-16f5-47b2-8622-ba5c57c2f434)
+![black-orange-highlights](https://github.com/user-attachments/assets/a9fd07f8-5d47-4c6a-9f3d-1c8d7952d308)
+
 
