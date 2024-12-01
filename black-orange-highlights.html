@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentation</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        #paragraph-text {
+            font-size: 13px;
+            font-weight: 400;
+            font-style: normal;
+            color: lightgrey;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        #nav-text {
+            font-size: 13px;
+            font-weight: 700;
+            font-style: normal;
+            color: orange;
+            font-family: 'Samsung Sans', sans-serif;
+            padding: 4px;
+        }
+
+        #breadcrumb {
+            font-size: 13px;
+            font-weight: 700;
+            font-style: normal;
+            color: lightgrey;
+            font-family: 'Samsung Sans', sans-serif;
+            padding: 8px;
+        }
+        #headings {
+            font-size: 1.40rem;
+            font-weight: 700;
+            color: lightblue;
+            font-family: 'Samsung Sans', sans-serif;
+            padding: 8px;
+        }
+
+    </style>
+</head>
+
+<body class="bg-black text-gray-100">
+<!-- Main Container -->
+<div class="max-w-7xl mx-auto p-4">
+    <!-- Navbar -->
+    <nav class="flex justify-between items-center py-4 px-6 rounded-md mb-4">
+        <div class="text-lg font-bold text-orange-500 " id="headings">My Project</div>
+        <div id="nav-text">
+            <a href="#" class="text-gray-300 hover:text-orange-500 px-4">Home</a>
+            <a href="#" class="text-gray-300 hover:text-orange-500 px-4">About</a>
+            <a href="#" class="text-gray-300 hover:text-orange-500 px-4">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Breadcrumb -->
+    <div class="py-2 px-4 rounded-md mb-4" id="breadcrumb">
+        <nav class="text-sm">
+            <div id="nav-text"></div>
+            <a href="#" class="text-gray-100 hover:text-orange-500">Home</a>
+            <span class="text-gray-500 mx-2">/</span>
+            <a href="#" class="text-gray-100 hover:text-orange-500">Section</a>
+            <span class="text-gray-500 mx-2">/</span>
+            <span class="text-orange-500">Current Page</span>
+        </nav>
+    </div>
+
+    <!-- Content Layout -->
+    <div class="grid grid-cols-4 gap-4">
+        <!-- Navigation Pane -->
+        <aside class="col-span-1 p-4 rounded-md">
+            <ul class="space-y-4 mt-8" id="nav-text">
+                <li><a href="#" class="text-gray-100 hover:text-orange-500">Introduction</a></li>
+                <li><a href="#" class="text-gray-100 hover:text-orange-500">Getting Started</a></li>
+                <li><a href="#" class="text-gray-100 hover:text-orange-500">Configuration</a></li>
+                <li><a href="#" class="text-gray-100 hover:text-orange-500">Usage</a></li>
+                <li><a href="#" class="text-gray-100 hover:text-orange-500">API</a></li>
+            </ul>
+        </aside>
+
+        <!-- Content Pane -->
+        <main class="col-span-3 p-6 rounded-md mt-8">
+            <div class="text-2xl font-bold text-orange-500 mb-4 text-white" id="headings">Welcome to the Documentation</div>
+            <div id="paragraph-text" class="mb-4 text-white">This is where the main content will go. Use this section to add detailed documentation for your project or website. Tailwind CSS makes it easy to style everything quickly!</div>
+            <p>Feel free to extend this section with more content as needed.</p>
+        </main>
+    </div>
+</div>
+</body>
+
+</html>
