@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentation</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                darkMode: true,
+                extend: {
+                    colors: {
+                        neonGreen: '#39FF14',
+                        neonPurple: '#B026FF',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-black text-white min-h-screen">
+<div class="flex">
+    <!-- Sidebar -->
+    <aside class="fixed w-[30%] max-w-xs h-screen bg-zinc-900 border-r border-zinc-800 p-6">
+        <div class="flex items-center gap-3 mb-12">
+            <div class="w-8 h-8 bg-neonGreen rounded-lg"></div>
+            <h1 class="text-2xl font-bold bg-gradient-to-r from-neonGreen to-neonPurple text-transparent bg-clip-text">Docs</h1>
+        </div>
+
+        <nav class="space-y-6">
+            <a href="#" class="flex items-center gap-3 text-zinc-400 hover:text-neonGreen transition-colors group">
+                <i class="ri-home-4-line text-xl group-hover:text-neonGreen"></i>
+                <span>Home</span>
+            </a>
+            <a href="#" class="flex items-center gap-3 text-zinc-400 hover:text-neonGreen transition-colors group">
+                <i class="ri-information-line text-xl group-hover:text-neonGreen"></i>
+                <span>About</span>
+            </a>
+            <a href="#" class="flex items-center gap-3 text-zinc-400 hover:text-neonGreen transition-colors group">
+                <i class="ri-folder-line text-xl group-hover:text-neonGreen"></i>
+                <span>Projects</span>
+            </a>
+            <a href="#" class="flex items-center gap-3 text-zinc-400 hover:text-neonGreen transition-colors group">
+                <i class="ri-quill-pen-line text-xl group-hover:text-neonGreen"></i>
+                <span>Writing</span>
+            </a>
+        </nav>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="ml-[30%] w-[70%] min-h-screen p-8">
+        <div class="max-w-4xl">
+            <!-- Content Container -->
+            <div class="bg-zinc-900 rounded-xl p-8 border border-zinc-800 shadow-lg shadow-neonPurple/5">
+                <h2 class="text-3xl font-bold mb-6 bg-gradient-to-r from-neonGreen to-neonPurple text-transparent bg-clip-text">Welcome to the Documentation</h2>
+                <p class="text-zinc-400 leading-relaxed mb-6">
+                    This is your main content area. You can add your documentation content here. The layout features a fixed sidebar with navigation and a scrollable main content area.
+                </p>
+
+                <!-- Example Card Grid -->
+                <div class="grid grid-cols-2 gap-6 mt-8">
+                    <div class="bg-black p-6 rounded-lg border border-zinc-800 hover:border-neonGreen transition-colors">
+                        <h3 class="text-xl font-semibold mb-3 text-neonGreen">Getting Started</h3>
+                        <p class="text-zinc-400">Begin your journey with our comprehensive guide to the basics.</p>
+                    </div>
+                    <div class="bg-black p-6 rounded-lg border border-zinc-800 hover:border-neonPurple transition-colors">
+                        <h3 class="text-xl font-semibold mb-3 text-neonPurple">Advanced Topics</h3>
+                        <p class="text-zinc-400">Dive deep into advanced concepts and techniques.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</div>
+</body>
+</html>
